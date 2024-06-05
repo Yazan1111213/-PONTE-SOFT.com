@@ -321,17 +321,17 @@ footer .column > a:hover{
     text-align: center;
 }
 
-@media (max-width < 900px){
-    .nav-links{
-        display: none;
-    }
-    .haeder{
-        grid-template-columns: repeat(1, 1fr)
-    }
-    .features{
-          grid-template-columns: repeat(2, 1fr)
-    }
-    .pricing{
-         grid-template-columns: repeat(2, 1fr)
-    }
+@media (max-width: 668px) {
+  .nav-links {
+    display: none;
+  }
+  .header {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pricing {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
